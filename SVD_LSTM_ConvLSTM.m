@@ -6,7 +6,7 @@
 %
 % --------------------------------------------------------------------------------------------
 %
-% authors:          Zhihuo Xu, Y.X. Wang  et al.
+% authors:         Zhihuo Xu, Yyuexia Wang, Linyi Zhou,  et al.
 %
 % web page:       https://github.com/Z-H-XU/Benchmark-Visibility
 %
@@ -19,7 +19,7 @@
 % This work should be used for nonprofit purposes only.
 % --------------------------------------------------------------------------------------------
 % If you use the code, please kindly cite the following paper:  
-% Zhihuo Xu, Y.X. Wang  et al. : A Visibility Sensing Benchmark for Intelligent Transportation Systems 
+%Zhihuo Xu, Yyuexia Wang, Linyi Zhou,  et al.,  A Visibility Sensing Benchmark for Intelligent Transportation Systems 
 % using Traffic Video Networks: Dataset and Methodology
 % IEEE Transactions on Intelligent Transportation Systems, Under Review.
 % Thank you!
