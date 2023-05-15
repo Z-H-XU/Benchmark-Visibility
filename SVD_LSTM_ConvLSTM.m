@@ -147,3 +147,19 @@ mean(rho_Spearman,2)
 
 mean(rmse,2)
 
+
+for k=1:len
+        figure(2)
+        plot( visibility_svd(k,:),'-.ko','LineWidth',lw);
+        hold on
+        plot(yp_lstm(k,:),':b v','LineWidth',lw);
+        hold on
+         plot(yp_conv_lstm(k,:),'--r pentagram','LineWidth',lw);
+        hold on
+        plot(vy(k,:),'LineWidth',lw);
+        hold off
+        ylim([0 thr+3e3]);xlim([0 length(vy(k,:))]);
+        xlabel('Time step');ylabel("Visbility (m)")
+        legend("SVD-Koschmieder's Law",'SVD-LSTM','SVD-Covn-LSTM',"Ground truth");
+       pause(1.5)
+end
