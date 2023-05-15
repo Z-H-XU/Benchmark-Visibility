@@ -112,20 +112,17 @@ for k=1:len
         tem= corrcoef(xx,yy);
          R(1,k)=tem(1,2);
         rho_Pearson(1,k)=corr(xx',yy','Type','Pearson','Rows','all');
-        rho_Spearman(1,k)=corr(xx',yy','Type','Spearman','Rows','all');
         rmse(1,k)=sqrt(mean((xx-yy).^2));
 
         xx=yp_lstm(k,:);
          tem= corrcoef(xx,yy);
          R(2,k)=tem(1,2);
         rho_Pearson(2,k)=corr(xx',yy','Type','Pearson','Rows','all');
-        rho_Spearman(2,k)=corr(xx',yy','Type','Spearman','Rows','all');
         rmse(2,k)=sqrt(mean((xx-yy).^2));
         xx=yp_conv_lstm(k,:);
          tem= corrcoef(xx,yy);
          R(3,k)=tem(1,2);
         rho_Pearson(3,k)=corr(xx',yy','Type','Pearson','Rows','all');
-        rho_Spearman(3,k)=corr(xx',yy','Type','Spearman','Rows','all');
         rmse(3,k)=sqrt(mean((xx-yy).^2));
 
 end
@@ -135,15 +132,12 @@ if(~isempty(r))
     for k=1:length(r)
         R(r(k),c(k))=0.5;
         rho_Pearson(r(k),c(k))=0.5;
-        rho_Spearman(r(k),c(k))=0.5;
     end
 end
 
 mean(R,2)
 
 mean(rho_Pearson,2)
-
-mean(rho_Spearman,2)
 
 mean(rmse,2)
 
