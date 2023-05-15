@@ -160,6 +160,6 @@ for k=1:len
         hold off
         ylim([0 thr+3e3]);xlim([0 length(vy(k,:))]);
         xlabel('Time step');ylabel("Visbility (m)")
-        legend("SVD-Koschmieder's Law",'SVD-LSTM','SVD-Covn-LSTM',"Ground truth");
+        legend("SVD-Koschmieder's Law",'SVD-LSTM','SVD-Conv-LSTM',"Ground truth");
        pause(1.5)
 end
