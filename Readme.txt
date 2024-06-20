@@ -5,4 +5,4 @@ There has been very limited research on estimating visibility from video frames,
 3If you use the dataset or the code, please kindly cite our paper:
 Yuexia Wang, Linyi Zhou, and Zhihuo Xu. "Traffic Road Visibility Retrieval in the Internet of Video Things through Physical Feature Based Learning Network." IEEE Transactions on Intelligent Transportation Systems, Under 2nd Review. 
 
-Thank you for your attention!
+Thank you!
