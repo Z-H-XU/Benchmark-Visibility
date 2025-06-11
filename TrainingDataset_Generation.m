@@ -6,7 +6,7 @@
 %
 % --------------------------------------------------------------------------------------------
 %
-% authors:           Zhihuo Xu, Yuexia Wang, Linyi Zhou,  et al.
+% authors:         Yuexia Wang, Zhihuo Xu, Linyi Zhou,  et al.
 %
 % web page:       https://github.com/Z-H-XU/Benchmark-Visibility
 %
