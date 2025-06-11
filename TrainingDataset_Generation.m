@@ -18,10 +18,9 @@
 % All rights reserved.
 % This work should be used for nonprofit purposes only.
 % --------------------------------------------------------------------------------------------
-% If you use the code, please kindly cite the following paper:  
-% Zhihuo Xu, Yuexia Wang, Linyi Zhou,  et al.,  First Visibility Sensing Benchmark for Intelligent Transportation Systems 
-% using Traffic Video Networks: Dataset and Methodology
-% IEEE Transactions on Intelligent Transportation Systems, Under Review.
+% If you use the dataset or the code, please kindly cite our paper:
+% Yuexia Wang, Linyi Zhou, and Zhihuo Xu. "Traffic Road Visibility Retrieval in the Internet of Video Things through Physical Feature Based Learning Network."
+% IEEE Transactions on Intelligent Transportation Systems,  vol. 26, no. 3, pp. 3629-3642, March 2025, doi: 10.1109/TITS.2024.3519137, https://ieeexplore.ieee.org/document/10817150. 
 % Thank you!
 
 clc; clear; close all;
