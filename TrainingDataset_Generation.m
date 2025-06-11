@@ -2,7 +2,7 @@
 %
 %    Demo software for quantify the visibility of traffic roads from video networks. 
 %
-%                   Release ver. 1.0  (May 14, 2023)
+%                   Release ver. 1.3  (May 16, 2023)
 %
 % --------------------------------------------------------------------------------------------
 %
